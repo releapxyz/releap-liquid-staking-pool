@@ -1,0 +1,18 @@
+[package]
+name = "StakedSuiSwap"
+version = "0.2.0"
+# Upgradecap = ""
+#published-at = ""
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "mainnet-v1.8.2"
+
+[dependencies.SuiSystem]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-system"
+rev = "mainnet-v1.8.2"
+
+[addresses]
+staked_sui_swap = "0x0"
